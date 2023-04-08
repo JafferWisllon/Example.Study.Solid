@@ -11,17 +11,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Study.Solid.SRP.Sol
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - OCP", "02 - OCP", "{89DAB745-2B6D-4CC3-A5D4-300603FC0E94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Study.Solid.OCP.Violacao", "Example.Study.Solid.OCP.Violacao\Example.Study.Solid.OCP.Violacao.csproj", "{578A4574-B8F8-477F-ACB3-DEC6C74FF9B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Study.Solid.OCP.Violacao", "Example.Study.Solid.OCP.Violacao\Example.Study.Solid.OCP.Violacao.csproj", "{578A4574-B8F8-477F-ACB3-DEC6C74FF9B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Study.Solid.OCP.Solucao", "Example.Study.Solid.OCP.Solucao\Example.Study.Solid.OCP.Solucao.csproj", "{3AB811C9-6A19-4BC5-A741-896E067218A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Study.Solid.OCP.Solucao", "Example.Study.Solid.OCP.Solucao\Example.Study.Solid.OCP.Solucao.csproj", "{3AB811C9-6A19-4BC5-A741-896E067218A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Study.Solid.OCP.Solucao.ExtensionMethods", "Example.Study.Solid.OCP.Solucao.ExtensionMethods\Example.Study.Solid.OCP.Solucao.ExtensionMethods.csproj", "{2C514288-0DE6-49D9-A145-94CAAA9AC732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Study.Solid.OCP.Solucao.ExtensionMethods", "Example.Study.Solid.OCP.Solucao.ExtensionMethods\Example.Study.Solid.OCP.Solucao.ExtensionMethods.csproj", "{2C514288-0DE6-49D9-A145-94CAAA9AC732}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - LSP", "03 - LSP", "{CC20E687-937B-4563-8056-CA361239C434}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Study.Solid.LSP.Violacao", "Example.Study.Solid.LSP.Violacao\Example.Study.Solid.LSP.Violacao.csproj", "{583E239B-CDC0-48C3-9EE7-DA4BC851DF5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Study.Solid.LSP.Violacao", "Example.Study.Solid.LSP.Violacao\Example.Study.Solid.LSP.Violacao.csproj", "{583E239B-CDC0-48C3-9EE7-DA4BC851DF5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Study.Solid.LSP.Solucao", "Example.Study.Solid.LSP.Solucao\Example.Study.Solid.LSP.Solucao.csproj", "{6C475010-0A6C-4D01-BC6E-01AC908D1B06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Study.Solid.LSP.Solucao", "Example.Study.Solid.LSP.Solucao\Example.Study.Solid.LSP.Solucao.csproj", "{6C475010-0A6C-4D01-BC6E-01AC908D1B06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - ISP", "04 - ISP", "{430DD218-B06E-4659-89D0-656525A559EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Study.Solid.ISP.Violacao", "Example.Study.Solid.ISP.Violacao\Example.Study.Solid.ISP.Violacao.csproj", "{6B82C230-5F71-4710-8FC7-61F691D1D710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Study.Solid.ISP.Solucao", "Example.Study.Solid.ISP.Solucao\Example.Study.Solid.ISP.Solucao.csproj", "{14F43926-61FF-46E3-8FD8-3949CDD334E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,14 @@ Global
 		{6C475010-0A6C-4D01-BC6E-01AC908D1B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C475010-0A6C-4D01-BC6E-01AC908D1B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C475010-0A6C-4D01-BC6E-01AC908D1B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B82C230-5F71-4710-8FC7-61F691D1D710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B82C230-5F71-4710-8FC7-61F691D1D710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B82C230-5F71-4710-8FC7-61F691D1D710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B82C230-5F71-4710-8FC7-61F691D1D710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F43926-61FF-46E3-8FD8-3949CDD334E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F43926-61FF-46E3-8FD8-3949CDD334E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F43926-61FF-46E3-8FD8-3949CDD334E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F43926-61FF-46E3-8FD8-3949CDD334E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +83,8 @@ Global
 		{2C514288-0DE6-49D9-A145-94CAAA9AC732} = {89DAB745-2B6D-4CC3-A5D4-300603FC0E94}
 		{583E239B-CDC0-48C3-9EE7-DA4BC851DF5B} = {CC20E687-937B-4563-8056-CA361239C434}
 		{6C475010-0A6C-4D01-BC6E-01AC908D1B06} = {CC20E687-937B-4563-8056-CA361239C434}
+		{6B82C230-5F71-4710-8FC7-61F691D1D710} = {430DD218-B06E-4659-89D0-656525A559EC}
+		{14F43926-61FF-46E3-8FD8-3949CDD334E7} = {430DD218-B06E-4659-89D0-656525A559EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2248A8A7-946E-4A73-8301-8B4CAF643C11}
